@@ -1,0 +1,173 @@
+html, 
+body,
+header,
+.view{
+    height:100%;
+}
+
+/* Video */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#video:after{
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+/* Video */
+
+/*Navbar*/
+.navhover:hover{
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    --webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    z-index: 2;
+}
+
+.content{
+    padding:16px;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+.sticky + .content{
+    padding-top:100px;
+}
+/*Navbar*/
+
+/* Utility */
+.card{
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+}
+.hov:hover{
+    background-color: #ed9600!important;
+    color:#fff!important;
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    --webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    z-index:2;
+}
+/* Utility  */
+
+
+/* Contact US Form  */
+#name{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height:30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1ss;
+    -webkit-transition: height 1s;
+}
+#name:focus{
+    height: 50px;
+    font-size: 16px;
+}
+#email{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height:30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1ss;
+    -webkit-transition: height 1s;
+}
+#email:focus{
+    height: 50px;
+    font-size: 16px;
+}
+
+#sub{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height:30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1ss;
+    -webkit-transition: height 1s;
+}
+#sub:focus{
+    height: 50px;
+    font-size: 16px;
+}
+
+#msg{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height:30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1ss;
+    -webkit-transition: height 1s;
+}
+#msg:focus{
+    height: 50px;
+    font-size: 16px;
+}
+
+/* Contact US Form  */
+
+
+/* Map  */
+.map-container-section{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 1s ease;
+}
+.map-container-section iframe{
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.map-container-section:hover{
+    opacity: 1;
+    box-shadow: border-box !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2)!important;
+    transform: scale(1.2)!important;
+    z-index: 2;
+}
+/* Map  */
